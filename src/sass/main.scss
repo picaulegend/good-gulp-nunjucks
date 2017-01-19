@@ -1,0 +1,24 @@
+$black: #000000;
+
+html {
+	background: $black;
+	color: white;
+}
+
+/* animation test */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.animation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+p {
+	font-family: 'Roboto';
+}

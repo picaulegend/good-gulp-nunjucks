@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Abel|Roboto:100,400,900" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- You write code for this content block in another file -->
+  {% block content %} {% endblock %}
+
+  <img src="./img/tothefront.png" alt="tothefront">
+	<script src="./bundle/app.js"></script>
+</body>
+</html>
